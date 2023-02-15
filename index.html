@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sparks - A Conversation Starter</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+a{text-decoration: none;}
+</style>
+</head>
+
+<body class="w3-content w3-black" style="max-width:1500px;">
+
+<!-- Question Box -->
+<header class="w3-display-container w3-center">
+  <div class="w3-animate-opacity">
+    <img class="w3-image" src="./img/ian-schneider-PAykYb-8Er8-unsplash.jpg" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Question...</h1>
+        <hr class="w3-opacity">
+        <p id="question">...</p>
+        <p><button class="w3-button w3-block w3-amber w3-round" onclick="getQuestionButtonClick()">Ask <i class="fa fa-fire"></i> </button></p>
+
+<!-- Previously Asked Questions -->
+<!--  If uncommented, this will display questions already asked. However, the list will get long and scroll off the page and it doens't look nice, so for now it's commented out. -->
+    <!-- 
+        <div id="history" style="display: none;">   
+            <p>Previous questions:</p>
+            <ul id="previouslyDisplayedQuestionsList"></ul>
+        </div> 
+    -->
+
+<!-- Clear History -->
+<!-- If you remove this button and the user reaches the end of the list of available questions, it will cause an error. -->
+        <p><button class="w3-button w3-block w3-blue-grey w3-round" onclick="clearHistory()">Clear History <i class="fa fa-trash"></i></button></p>
+    </div>
+      
+    </div>
+
+  
+</header>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-black w3-center w3-xlarge">
+  <div class="w3-section w3-text-dark-grey">
+    <a href="https://github.com/stacylear"><i class="fa fa-github w3-hover-text-amber"></i></a>
+    <a href="https://twitter.com/StacyLearSDE"><i class="fa fa-twitter w3-hover-amber"></i></a>
+    <a href="https://www.linkedin.com/in/stacylear/"><i class="fa fa-linkedin w3-hover-amber"></i></a>
+  </div>
+  <p class="w3-medium"><a href="https://www.stacylear.com" target="_blank" class="w3-text-dark-grey w3-hover-text-amber">LEAR CREATIVE CONSULTING</a></p>
+</footer>
+
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>

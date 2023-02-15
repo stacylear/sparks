@@ -18,7 +18,7 @@ async function readQuestionsFromFile() {
 }
 
 function getQuestionButtonClick() {
-    updatePreviouslyDisplayedQuestionsList();
+//    updatePreviouslyDisplayedQuestionsList();
     questionCount = questions.length;
     const randomlyPickedQuestionId = pickRandomQuestionThatHasntBeenPickedBefore(questionCount);
     const questionToDisplay = questions.find(q => { return q.Id === randomlyPickedQuestionId }).Question;

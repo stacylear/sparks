@@ -22,7 +22,8 @@ a {
   background: grey;
   color: white;
   
-  width: 40%;
+  width: 50%;
+  min-width: 200px;
   margin: auto;
   
   padding: 1em;

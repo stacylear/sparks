@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+
+html { 
+  background: url(../img/ian-schneider-PAykYb-8Er8-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background: grey;
+  color: white;
+  
+  width: 40%;
+  margin: auto;
+  
+  padding: 1em;
+}
+  
+.inner-container {
+  width: 90%;
+}
+
+.footer-container {
+  background: grey;
+  color: white;
+  
+  width: 50%;
+  margin: auto;
+  
+  padding: 1em;
+}
+
+.section {
+  margin-top:1em!important;
+  margin-bottom:1em!important;
+}
+
+.content,.auto {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.padding-16 {
+  padding-top:1rem!important;
+  padding-bottom:1rem!important
+}
+
+.center {
+  text-align:center!important
+}
+
+.opacity {
+  opacity:0.85;
+}
+
+.xlarge {
+  font-size: 2rem
+}
+
+.button:hover {
+  color:#000!important;
+  background-color:#ccc!important
+}
+
+.block {
+  display:block;
+  width:100%
+}
+
+.round {
+  border-radius:4px;
+}
+
+.black,.hover-black:hover {
+  /* color:#fff!important; */
+  background-color:#000!important
+}
+
+.amber,.hover-amber:hover {
+  color:#000!important;
+  background-color:#ffc107!important
+}
+
+.text-amber,.hover-text-amber:hover {
+  color:#ffc107!important;
+}
+
+.text-dark-grey,.hover-text-dark-grey:hover,.text-dark-gray,.hover-text-dark-gray:hover {
+  color:#3a3a3a!important;
+}
+
+.blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover {
+  color:#fff!important;
+  background-color:#607d8b!important;
+}

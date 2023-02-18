@@ -30,7 +30,7 @@ a {
   color: white;
   width: 50%;
   min-width: 225px;
-  margin: auto;
+  /* margin: auto; */
 }
   
 .inner-container {
@@ -39,7 +39,7 @@ a {
 
 .bottom {
   position: absolute;
-  width: 50%;
+  width: 49.4%;
   min-width: 225px;
   padding: 0.6em 0 0 0;
 }

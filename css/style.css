@@ -37,10 +37,11 @@ a {
   width: 90%;
 }
 
-/* .section {
-  margin-top:1em!important;
-  margin-bottom:1em!important;
-} */
+.bottom {
+  position: absolute;
+  width: 50%;
+  padding: 0.6em 0 0 0;
+}
 
 .content,.auto {
   margin-left:auto;
@@ -58,8 +59,6 @@ a {
 
 .opacity {
   opacity:0.85;
-
-
 }
 
 .xlarge {
@@ -73,8 +72,8 @@ a {
 }
 
 .block {
-  display:block;
-  width:100%
+  display: block;
+  width:100%;
 }
 
 .round {
@@ -82,7 +81,7 @@ a {
 }
 
 .black,.hover-black:hover {
-  /* color:#fff!important; */
+  color:#fff!important;
   background-color:#000!important
 }
 

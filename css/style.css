@@ -98,21 +98,20 @@ a {
   color:#3a3a3a!important;
 }
 
-/* .amber,.hover-amber:hover {
+.amber,.hover-amber:hover {
   color:#000!important;
   background-color:#ffc107!important
-} */
+}
 
-/* .blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover {
+.blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover {
   color:#fff!important;
   background-color:#607d8b!important;
-} */
+}
 
 @media (hover: hover) and (pointer: fine) {
   button:hover, .amber {
   color:#000!important;
   background-color:#ffc107!important;
-  transition: background-color 0.5s ease-in-out;
   cursor: pointer;
   } 
 }
@@ -121,5 +120,6 @@ a {
   button:hover, .blue-grey {
     color:#000!important;
     background-color:#607d8b!important;
+    cursor: pointer;
   } 
 }

@@ -64,7 +64,13 @@ a {
   font-size: 2rem
 }
 
-.button, .button:hover {
+/* .button, .button:hover {
+  color:#000!important;
+  background-color:#ccc!important;
+  padding: 1em;
+} */
+
+.button {
   color:#000!important;
   background-color:#ccc!important;
   padding: 1em;

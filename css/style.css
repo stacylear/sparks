@@ -40,10 +40,6 @@ a {
   width: 100%;
   min-width: 225px;
   height: 50px;
-  /* position: absolute;
-  width: 50%;
-  min-width: 225px;
-  padding: 0.5em; */
 }
 
 .content,.auto {
@@ -104,4 +100,11 @@ a {
 .blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover {
   color:#fff!important;
   background-color:#607d8b!important;
+}
+
+@media (hover: hover) {
+  button:hover {
+    color:#000!important;
+    background-color:#ccc!important;
+  }
 }

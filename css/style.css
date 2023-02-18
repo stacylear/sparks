@@ -84,10 +84,10 @@ a {
   background-color:#000!important
 }
 
-.amber,.hover-amber:hover {
+/* .amber,.hover-amber:hover {
   color:#000!important;
   background-color:#ffc107!important
-}
+} */
 
 .text-amber,.hover-text-amber:hover {
   color:#ffc107!important;
@@ -97,14 +97,21 @@ a {
   color:#3a3a3a!important;
 }
 
-.blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover {
+/* .blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover {
   color:#fff!important;
   background-color:#607d8b!important;
+} */
+
+@media (hover: hover) and (pointer: fine) {
+  button:hover, .amber {
+  /* color:#000!important; */
+  background-color:#ffc107!important
+  } 
 }
 
-@media (hover: hover) {
-  button:hover {
-    color:#000!important;
-    background-color:#ccc!important;
-  }
+@media (hover: hover) and (pointer: fine) {
+  button:hover, .blue-grey {
+    /* color:#000!important; */
+    background-color:#607d8b!important;
+  } 
 }

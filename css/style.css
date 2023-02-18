@@ -18,14 +18,19 @@ a {
   text-decoration: none;
 }
 
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15% 0 0;  
+}
+
 .container {
   background: grey;
   color: white;
-  
   width: 50%;
   min-width: 225px;
   margin: auto;
-  
   padding: 1em;
 }
   
@@ -36,10 +41,7 @@ a {
 .footer-container {
   background: grey;
   color: white;
-  
   width: 50%;
-  margin: auto;
-  
   padding: 1em;
 }
 
@@ -54,8 +56,8 @@ a {
 }
 
 .padding-16 {
-  padding-top:1rem!important;
-  padding-bottom:1rem!important
+  padding-top:1em!important;
+  padding-bottom:1em!important
 }
 
 .center {
@@ -64,15 +66,18 @@ a {
 
 .opacity {
   opacity:0.85;
+
+
 }
 
 .xlarge {
   font-size: 2rem
 }
 
-.button:hover {
+.button, .button:hover {
   color:#000!important;
-  background-color:#ccc!important
+  background-color:#ccc!important;
+  padding: 1em;
 }
 
 .block {

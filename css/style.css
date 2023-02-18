@@ -22,7 +22,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15% 0 0;  
+  margin: 20% 0 0;  
 }
 
 .container {
@@ -30,7 +30,6 @@ a {
   color: white;
   width: 50%;
   min-width: 225px;
-  /* margin: auto; */
 }
   
 .inner-container {
@@ -38,10 +37,13 @@ a {
 }
 
 .bottom {
-  position: absolute;
-  width: 49.4%;
+  width: 100%;
   min-width: 225px;
-  padding: 0.6em 0 0 0;
+  height: 50px;
+  /* position: absolute;
+  width: 50%;
+  min-width: 225px;
+  padding: 0.5em; */
 }
 
 .content,.auto {

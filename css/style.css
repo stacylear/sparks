@@ -31,18 +31,10 @@ a {
   width: 50%;
   min-width: 225px;
   margin: auto;
-  padding: 1em;
 }
   
 .inner-container {
   width: 90%;
-}
-
-.footer-container {
-  background: grey;
-  color: white;
-  width: 50%;
-  padding: 1em;
 }
 
 .section {

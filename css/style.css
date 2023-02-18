@@ -18,6 +18,11 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+  color:#3a3a3a!important;
+}
+
 .parent {
   display: flex;
   justify-content: center;
